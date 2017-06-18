@@ -1,0 +1,57 @@
+body {
+
+	background-color: #C7A261 ;
+    
+} 
+.return{float:left; margin-left: 10px;margin-top: 5px; font-weight: bold;}
+a:hover{background-color: red;}
+.header  {
+border : 2px black solid;
+border-radius: 25px;
+font-style: italic;
+background-color: #5A3A02;
+font-size : 1.3em;
+text-align:  center;
+
+}  
+
+.container {
+    margin-top: 20px;
+	display: flex ;
+	border-radius: 15px;
+	flex-direction: column;
+	font-family: 'Apple Chancery', cursive	 ;
+} 
+.item1:nth-child(1){
+  order :1 ; 
+  font-style: italic ; 
+  margin-top: 10px;
+}  
+.item2:nth-child(2){
+	order:2;
+	font-style: italic;
+	  margin-top: 10px;
+
+}
+.item3:nth-child(3){
+	font-style: italic;
+	order:3;
+	  margin-top: 10px;
+
+}
+.item1 , .item2,.item3{
+	white-space: pre-line;
+}
+ audio {
+	width: 800px;
+	margin-left: 10px;
+	  margin-top: 10px;
+	  
+
+} 
+
+@media screen and (max-width: 1024px){
+	audio {
+		width:300px;
+	}
+}

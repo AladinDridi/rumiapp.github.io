@@ -1,0 +1,29 @@
+.return{
+background-color: #C0953F
+border:1px solid black;
+border-radius: 10px;
+} 
+a{color: red; border :1px solid black; border-radius: 10px;background-color: #BC8E34
+;}
+
+body{background-color: #EDC065
+}
+input,textarea{
+	display: block; 
+	padding: 20px ;
+	border-radius: 10px;
+	background-color: #F2EDE5;
+}
+input[type="text"]{
+	width :60%;
+
+}
+a:hover{background-color: #EFE0C4;}
+input[type="tel"]{
+	width: 60% ;
+	margin-top: 10px;
+} 
+textarea[name="message"]{
+	margin-top: 10px;
+}
+input[type="submit"]{width: 40% margin-top :20px;}

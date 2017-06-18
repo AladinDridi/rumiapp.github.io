@@ -1,0 +1,20 @@
+	.header{
+	border : 1px #000000 solid; 
+	background-color: #BC9445 ; 
+	text-align: center ;
+}  
+.introduction{
+	background-color: #E5D5B5 ;  
+	text-align: center;
+} 
+
+strong{
+ font-size: 3.2em ;
+} 
+p{
+	font-size :1.1em ;
+}  
+a:hover{
+color:#1Fa010;
+}
+.return a{background-color: #D3E58E; border: 1px solid #D3E58E; border-radius: 26px; color:red; }
